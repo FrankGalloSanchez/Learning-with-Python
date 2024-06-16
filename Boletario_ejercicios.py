@@ -1,3 +1,4 @@
+#Operaciones aritméticas
 #Escribe un programa que sume dos números ingresados por el usuario.
 num1 = int(input("Ingrese el primer valor :"))
 num2 = int(input("Ingrese el primer valor :"))
