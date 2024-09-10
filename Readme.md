@@ -15,6 +15,10 @@ En este proyecto, aprenderás a conectar aplicaciones Python con MySQL utilizand
 - Aplicar principios de POO (Programación Orientada a Objetos).
 - Buenas prácticas de desarrollo y manejo de bases de datos.
 
+## En esta parte del repositorio obtendra el codigo para la conexion
+ ```
+https://github.com/FrankGalloSanchez/Python_Skill_Course/blob/main/Semana3/07CRUD.py
+ ```
 # 🛠️ Requisitos:
 
  Antes de comenzar, asegúrate de tener instalados los siguientes requisitos:
@@ -24,35 +28,37 @@ En este proyecto, aprenderás a conectar aplicaciones Python con MySQL utilizand
 - MySQL Connector: https://pypi.org/project/mysql-connector-python/
 
 # Instala MySQL Connector:
+ ```
 pip install mysql-connector-python
-
+ ```
 # 🚀 Comenzar:
-
-# 1. Clona este repositorio:
+## 1. Clona este repositorio:
+ ```
 git clone https://github.com/FrankGalloSanchez/Python_Skill_Course.git
-
-# 2. Entra al directorio del proyecto:
+ ```
+## 2. Entra al directorio del proyecto:
+ ```
 cd Python_Skill_Course
-
-# 3. Instala las dependencias necesarias:
+ ```
+## 3. Instala las dependencias necesarias:
+ ```
 pip install -r requirements.txt
-
-# 4. Configura la conexión a la base de datos en 'database.py'
-
-# 5. Ejecuta el archivo principal:
+ ```
+## 4. Ejecuta el archivo principal:
+ ```
 python src/app.py
-
-# 🌟 ¿Por qué este proyecto?
+ ```
+## 🌟 ¿Por qué este proyecto?
 Este repositorio es perfecto para aquellos que buscan mejorar sus habilidades en Python y aprender a integrar aplicaciones con bases de datos MySQL. Es ideal tanto para principiantes como para desarrolladores que desean llevar sus conocimientos al siguiente nivel.
 
-# 🤝 Contribuciones:
+## 🤝 Contribuciones:
 Si te interesa colaborar en este proyecto, ¡eres bienvenido! Solo haz un fork del repositorio, realiza tus mejoras y envía un pull request.
 
-# 📬 Contacto:
+## 📬 Contacto:
 Si tienes alguna duda o sugerencia, no dudes en contactarme:
 LinkedIn: Frank Gallo Sánchez
 GitHub: FrankGalloSanchez
 
-# 🏷️ Licencia:
+## 🏷️ Licencia:
 Este proyecto está bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
 
