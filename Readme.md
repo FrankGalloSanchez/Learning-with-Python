@@ -1,47 +1,58 @@
-# Proyecto Ejemplo
+<div align="center">
+  <img src="https://mascandobits.es/blog/wp-content/uploads/2019/03/pypi_banner.png" alt="Python and MySQL" style="width:100%; height:260px; object-fit:cover; border-radius: 100%;">
+</div>
 
-# Como concentrarme
-1..- Comprender lo que hay que resolver
-2.- Clasificar
-- Datos de entrada (Que necesita el programa para que funcione)
-- Procesos (Que vas a calcular)
-- Salidas (Que vas a mostrar)
-3.- Conozco las intrucciones para indicar lo que el programa debe hacer
-4.- Buscar Ejemplos
-5.- Codificar 
+# Python CRUD con MySQL Connector
 
-Este es un proyecto de ejemplo para demostrar cómo crear un archivo README.
+# 🚀 ¡Bienvenido a mi repositorio de Python CRUD con MySQL! 🎉
+En este proyecto, aprenderás a conectar aplicaciones Python con MySQL utilizando el conector MySQL para realizar operaciones CRUD (Create, Read, Update, Delete) de manera eficiente y segura.
 
-## Combinaciones de Teclado en Windows
+# 📚 ¿Qué aprenderás?
 
-### Símbolos Comunes
+- Fundamentos de Python.
+- Conectar Python con bases de datos MySQL.
+- Implementar operaciones CRUD (Crear, Leer, Actualizar, Eliminar).
+- Aplicar principios de POO (Programación Orientada a Objetos).
+- Buenas prácticas de desarrollo y manejo de bases de datos.
 
-- `!` (exclamación): `[Shift] + [1]`
-- `@` (arroba): `[Shift] + [2]`
-- `#` (numeral): `[Shift] + [3]`
-- `$` (signo de dólar): `[Shift] + [4]`
-- `%` (porcentaje): `[Shift] + [5]`
-- `^` (acento circunflejo): `[Shift] + [6]`
-- `&` (ampersand): `[Shift] + [7]`
-- `*` (asterisco): `[Shift] + [8]`
-- `(` (paréntesis izquierdo): `[Shift] + [9]`
-- `)` (paréntesis derecho): `[Shift] + [0]`
-- `_` (guion bajo): `[Shift] + [-]`
-- `+` (más): `[Shift] + [=]`
+# 🛠️ Requisitos:
 
-### Otros Símbolos
+ Antes de comenzar, asegúrate de tener instalados los siguientes requisitos:
 
-- `~` (virgulilla): `[Shift] + [\`]`(a la izquierda de`[1]`)
-- `` ` `` (acento grave): `[`]`
-- `-` (guion): `[-]`
-- `=` (igual): `[=]`
-- `{` (llave izquierda): `[Shift] + [[`
-- `}` (llave derecha): `[Shift] + []`
-- `|` (barra vertical): `[Shift] + [\]`
-- `\` (barra invertida): `[\]`
-- `:` (dos puntos): `[Shift] + [;]`
-- `"` (comillas dobles): `[Shift] + [']`
-- `'` (comilla simple): `['']`
-- `<` (menor que): `[Shift] + [,]`
-- `>` (mayor que): `[Shift] + [.]`
-- `?` (signo de interrogación): `[Shift] + [/]`
+- Python 3.x: https://www.python.org/downloads/
+- MySQL: https://dev.mysql.com/downloads/installer/
+- MySQL Connector: https://pypi.org/project/mysql-connector-python/
+
+# Instala MySQL Connector:
+pip install mysql-connector-python
+
+# 🚀 Comenzar:
+
+# 1. Clona este repositorio:
+git clone https://github.com/FrankGalloSanchez/Python_Skill_Course.git
+
+# 2. Entra al directorio del proyecto:
+cd Python_Skill_Course
+
+# 3. Instala las dependencias necesarias:
+pip install -r requirements.txt
+
+# 4. Configura la conexión a la base de datos en 'database.py'
+
+# 5. Ejecuta el archivo principal:
+python src/app.py
+
+# 🌟 ¿Por qué este proyecto?
+Este repositorio es perfecto para aquellos que buscan mejorar sus habilidades en Python y aprender a integrar aplicaciones con bases de datos MySQL. Es ideal tanto para principiantes como para desarrolladores que desean llevar sus conocimientos al siguiente nivel.
+
+# 🤝 Contribuciones:
+Si te interesa colaborar en este proyecto, ¡eres bienvenido! Solo haz un fork del repositorio, realiza tus mejoras y envía un pull request.
+
+# 📬 Contacto:
+Si tienes alguna duda o sugerencia, no dudes en contactarme:
+LinkedIn: Frank Gallo Sánchez
+GitHub: FrankGalloSanchez
+
+# 🏷️ Licencia:
+Este proyecto está bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
+
