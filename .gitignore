@@ -1,0 +1,13 @@
+# Ignorar el entorno virtual
+fastapi-demo/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+
+# Archivos de configuración del entorno
+.env
+
+# Archivos de configuración específicos del sistema operativo
+.DS_Store
+Thumbs.db
