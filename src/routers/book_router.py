@@ -1,6 +1,7 @@
 from src.models.Libro import Libro
 from src.data.data import libros_db
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
+from src.routers.securizacion_jwt_router import decode_token
 
 book_router = APIRouter()
 
@@ -23,11 +24,11 @@ def get_libro_by_id(id:int):
     return []
 
 @book_router.post("/" , tags=["Book"])
-def save_book(libro:Libro):
+def save_book(libro:Libro ,current_user: dict = Depends(decode_token)):
     return{"message":f"libro, {libro.titulo} insertado"}
 
 @book_router.put("/{id}", tags=["Book"])
-def edit_by_id(id: int, libro: Libro):
+def edit_by_id(id: int, libro: Libro , current_user: dict = Depends(decode_token)):
     for book in libros_db:
         if book['id'] == id:
             book.update(libro.dict())
@@ -35,7 +36,7 @@ def edit_by_id(id: int, libro: Libro):
     return {"message": "Libro no encontrado"}
 
 @book_router.delete("/{id}", tags=["Book"])
-def delete_book(id: int):
+def delete_book(id: int , current_user: dict = Depends(decode_token)):
     for index, book in enumerate(libros_db):
         if book['id'] == id:
             del libros_db[index]
