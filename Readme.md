@@ -27,7 +27,7 @@ Este es un proyecto de demostración utilizando FastAPI.
     pip install -r requirements.txt
 5. Ejecuta la aplicación:
     ```bash
-    uvicorn main:app --reload
+    uvicorn src.main:app --reload
  
 
 
